@@ -1,0 +1,27 @@
+@import "../../styles/common";
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input{
+  border-radius: 5px;
+  padding: 4px 10px;
+  width: 100%;
+  border: 1px solid $grey500;
+}
+
+.error{
+  border: 1px solid $red;
+}
+
+.errorMessage{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $red;
+  margin: 2px 0 0 0;
+}
